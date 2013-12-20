@@ -1,5 +1,11 @@
 (function () {
-    var u = {}, songs = [], scrolled = 0, songList = [], checkCount = 0, previousSongCount = 0,
+    var u = {}, 
+        songs = [], 
+        scrolled = 0, 
+        songList = [], 
+        checkCount = 0, 
+        previousSongCount = 0,
+        scrollPos = 0,
     addToSongs = function(title, artist, album){
     	var id = title + artist + album;
         if(!u[id]){
@@ -18,6 +24,9 @@
     	}
     	console.log('{"Songs":[' + songList + ']}');
     };
+
+    scrollPos = $("#page-wrapper").scrollTop();//copy page scrolltop in the beginning
+    $("#page-wrapper").scrollTop(0);//move page to top in the beginning
 
     $("#page-wrapper").scroll(function(){
     	$(".title-container").each(function () {
@@ -42,6 +51,7 @@
         }
         else if(checkCount >= 3){
             clearInterval(_scrolldelay);
+            $("#page-wrapper").scrollTop(scrollPos);
             displaySongs();
         }
     },1000);
