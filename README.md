@@ -3,8 +3,9 @@ grooveshark-song-list
 
 Downloads list of song title, artist and album in json format from grooveshark
 
+NOTE: This JS does not download the songs that are being played. It just downloads a list of song tiles along with artist and album names.
 
-## Using grooveshark-song-list.js - A Brief Example ##
+### Using grooveshark-song-list.js - A Brief Example ###
     
 Open the grooveshark-song-list.js file
     
