@@ -12,7 +12,7 @@ Downloads list of song title, artist and album in json format from grooveshark
     
     Open grooveshark page with a song list similar to this
     
-    [![Screen Shot](https://raw.github.com/vi3k6i5/grooveshark-song-list/master/screenshots/groovesharkSongList-0.png)](http://vi3k6i5.blogspot.com/2013/12/download-list-of-songs-from-grooveshark.html)
+    ![Screen Shot](https://raw.github.com/vi3k6i5/grooveshark-song-list/master/screenshots/groovesharkSongList-0.png)
     
     
     Open the javaScript console ( developer tools for chrome )
