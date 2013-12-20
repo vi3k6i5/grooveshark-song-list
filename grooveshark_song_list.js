@@ -37,7 +37,6 @@
         });
     });    
 
-
     _scrolldelay = setInterval( function() {
     	scrolled = scrolled + 300;
     	$("#page-wrapper").scrollTop(scrolled);
