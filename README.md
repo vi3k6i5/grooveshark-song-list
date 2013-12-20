@@ -5,7 +5,9 @@ Downloads list of song title, artist and album in json format from grooveshark
 
 
 ## Using grooveshark-song-list.js - A Brief Example ##
-
+    
+    [![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)](#features)
+    
     Open the grooveshark-song-list.js file
     
     Copy the entire javaScript code 
