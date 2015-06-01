@@ -1,4 +1,4 @@
-[Update]Project is Closed
+[Update] This project is Closed
 =========================
 
 grooveshark-song-list
